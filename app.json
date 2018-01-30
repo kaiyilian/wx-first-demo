@@ -1,13 +1,14 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/test/test"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "Demo",
-    "backgroundTextStyle": "light"    
+    "backgroundTextStyle": "light"
   },
   "tabBar": {
     "list": [

@@ -73,7 +73,10 @@ Page({
   },
   //事件处理函数
   bindViewTap: function () {
-    console.log("bindTap")
+    console.log("bindTap");
+    console.log(this.route);
+
+    //navigateTo, redirectTo 只能打开非 tabBar 页面
     wx.navigateTo({
       url: '../logs/logs'
     })
@@ -84,6 +87,12 @@ Page({
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
+    })
+  },
+  goTestPage:function(){
+    //navigateTo, redirectTo 只能打开非 tabBar 页面
+    wx.navigateTo({
+      url: '../test/test'
     })
   }
 })

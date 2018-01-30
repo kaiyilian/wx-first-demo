@@ -1,0 +1,19 @@
+/* pages/test/test.wxss */
+
+.te{
+  display: flex;
+}
+
+.hide{
+  display: none;
+}
+.btn_test{
+  margin:auto;
+}
+.button-hover {
+  background-color: red;
+}
+/** 添加自定义button点击态样式类**/
+.other-button-hover {
+  background-color: blue;
+}
